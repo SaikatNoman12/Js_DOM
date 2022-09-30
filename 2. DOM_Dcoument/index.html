@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Document</title>
+
+
+    <style>
+        p,
+        h4,
+        h1,
+        h6,
+        div {
+            font-size: 28px;
+            font-family: monospace;
+            font-weight: 500;
+        }
+
+        h6,
+        div {
+            margin: 26px 0px 0px 0px;
+        }
+
+        .h3 {
+            font-size: 28px;
+            font-family: monospace;
+            font-weight: 500;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- use getElementById() -->
+    <p id="demo1"></p>
+
+    <!-- use get elementsByClassName() -->
+    <p class="demo2"> Test - 2</p>
+    <p class="demo2"> Test - 3</p>
+
+    <!-- use getElementsByTagname() -->
+    <h4></h4>
+    <h4></h4>
+
+
+    <!-- use className property add class -->
+    <h3 id="demo3">Hello Please Add New Attribute</h3>
+
+
+    <!-- use document style property -->
+    <h1>
+        Add Css Style
+    </h1>
+
+
+    <!-- use document setAttribute('attribute', 'attributeValue') method -->
+    <h6>Set Attribute</h6>
+
+
+    <!-- use document innerHTML property -->
+    <div id="add-text">
+
+    </div>
+
+
+    <!-- use document createElement('htmlTagName') -->
+    <div id="add-element">
+
+    </div>
+
+
+    <!-- use document method removeChild('') -->
+    <div id="parent-div">
+        <div id="remove-child">
+            I remove you! 
+        </div>
+    </div>
+
+    <div id="parent-div-two">
+        <div id="remove-child-tow">
+            I love you? 
+            Please ans me!!
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
