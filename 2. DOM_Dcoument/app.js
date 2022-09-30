@@ -79,3 +79,31 @@ parentDiv.removeChild(removeDiv);
 /* -- second type removeChild() document method use -- */
 const removeDivTwo = document.getElementById('remove-child-tow');
 removeDivTwo.parentNode.removeChild(removeDivTwo);
+
+
+// use document method replaceChild()
+
+/* -- old element; -- */
+const oldElement = document.getElementById('child-addElement');
+
+
+/* -- create new element; -- */
+const newElementTwo = document.createElement('div')
+
+/* -- create element; -- */
+const h1Elem = document.createElement('h1');
+h1Elem.innerText = 'My new element';
+
+/* -- h1Elm append child; -- */
+newElementTwo.appendChild(h1Elem);
+
+/* -- get parent-element; -- */
+const getParentElement = document.getElementById('parent-addElement');
+
+/* -- replace new element and remove element; -- */
+getParentElement.replaceChild(newElementTwo, oldElement);
+
+
+// use document method write();
+const writeMethod = document.getElementById('writeMethod');
+
