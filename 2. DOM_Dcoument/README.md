@@ -38,6 +38,22 @@
 
     document.write('text');
 
-### Note: The write() method writes directly to an open (HTML) document stream.
+## Document object method adding event handler:
+
+    (event)             (event)
+
+    onclick();          onkeyup();
+
+    onblur();           onmouseover();
+
+    onerror();          onmouseup();
+
+    onfocus();          onmousedown();
+
+    onkeydown();        onload();
+
+    onkeypress();       onsubmit()
+
     
+### Note: The write() method writes directly to an open (HTML) document stream.
 
