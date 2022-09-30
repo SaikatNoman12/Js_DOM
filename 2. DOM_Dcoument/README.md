@@ -52,7 +52,7 @@
 
     onkeydown();        onload();
 
-    onkeypress();       onsubmit()
+    onkeypress();       onsubmit();
 
     
 ### Note: The write() method writes directly to an open (HTML) document stream.
