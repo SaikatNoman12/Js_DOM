@@ -2,15 +2,16 @@
 
 ## Document object method finding HTML elements:
 
+    //method:
     document.getElementById('idName');
 
     document.getElementsByClass('className');
 
-    document.getElementByTagNames('htmlTagName');
+    document.getElementsByTagNames('htmlTagName');
 
 ## Document object property & method changing HTML elements:
 
-    // property
+    // property:
     element.innerHTML = 'tagName/text';
 
     element.textContent = 'text';
@@ -19,11 +20,14 @@
 
     element.attribute = 'value';
 
-    // method
+    element.style.cssProperty = 'value';
+
+    // method:
     element.setAttribute('attributeName', 'value');
 
 ## Document object method adding and deleting elements:
     
+    // method:
     document.createElement('htmlElement');
 
     document.appendChild('element');

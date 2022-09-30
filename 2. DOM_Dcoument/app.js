@@ -11,7 +11,7 @@ const demo1 = document.getElementById('demo1');
 demo1.innerHTML = 'Demo1';
 
 
-// use document object method getElementByClassName(). This is return a array and multiple html element; 
+// use document object method getElementsByClassName(). This is return a array and multiple html element; 
 const demo2 = document.getElementsByClassName('demo2')
 Array.from(demo2).forEach(function (element) {
     element.style.color = 'red';
@@ -19,7 +19,6 @@ Array.from(demo2).forEach(function (element) {
 
 
 // use document object method getElementsByTagName('htmlTagName'). This return same html tags in an array.
-
 const allH4 = document.getElementsByTagName('h4');
 for (let element of allH4) {
 
@@ -82,10 +81,8 @@ removeDivTwo.parentNode.removeChild(removeDivTwo);
 
 
 // use document method replaceChild()
-
 /* -- old element; -- */
 const oldElement = document.getElementById('child-addElement');
-
 
 /* -- create new element; -- */
 const newElementTwo = document.createElement('div')
