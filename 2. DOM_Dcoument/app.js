@@ -1,6 +1,10 @@
 /* -------------- javaScript DOM Document -------------- */
 
+
+
 /* ======== finding html element ======== */
+
+
 
 // use document object method getElementById('isName'). This is return a single html element.
 const demo1 = document.getElementById('demo1');
@@ -25,7 +29,10 @@ for (let element of allH4) {
 }
 
 
+
 /* ======== Changing Html Element ======== */
+
+
 
 // use document innerHTML property;
 const addInnerHtml = document.getElementById('add-text');
@@ -47,7 +54,10 @@ const h6 = document.getElementsByTagName('h6');
 h6[0].setAttribute('class', 'addClass');
 
 
+
 /* ======== Adding and Deleting elements ======== */
+
+
 
 // use document createElement('htmlTagName') method;
 const createNewElement = document.createElement('h1');
@@ -62,8 +72,10 @@ addElement.appendChild(createNewElement);
 // use document method removeChild() ;
 const parentDiv = document.getElementById('parent-div');
 
+/* -- first type removeChild() document method use -- */
 const removeDiv = document.getElementById('remove-child');
 parentDiv.removeChild(removeDiv);
 
+/* -- second type removeChild() document method use -- */
 const removeDivTwo = document.getElementById('remove-child-tow');
 removeDivTwo.parentNode.removeChild(removeDivTwo);
