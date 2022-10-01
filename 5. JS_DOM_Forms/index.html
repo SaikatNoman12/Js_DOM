@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js_DOM_Forms</title>
+</head>
+
+<body>
+
+
+    <div class="main">
+        <form name="myForm" action="" onsubmit="return validateForm()">
+
+            <label for="">Name</label>
+            <input type="text" name="fName">
+            <button type="submit">submit</button>
+
+        </form>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="main2">
+        <label for="">Number</label>
+        <input type="text" class="number" step="1" placeholder="enter your number" name="number">
+        <button class="button" onclick="numberValidate()">Submit</button>
+    </div>
+
+    <!-- custom js link -->
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
