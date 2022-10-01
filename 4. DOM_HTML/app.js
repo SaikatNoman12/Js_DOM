@@ -50,12 +50,16 @@ demo8.removeChild(deleteData); // delete child data.
 // use document object method replaceChild('newElm', 'oldElm'):----
 const demo9 = document.querySelector('.demo9'); // parent.
 
-const newElem = document.createElement('p'); // new element.
-newElem.innerHTML = "Use replaceChild('newElm', 'oldElm')."; // add new element data.
+const newElem = document.createElement('p');  /*new element.*/
+newElem.innerHTML = "Use replaceChild('newElm', 'oldElm')."; /*add text.*/
 
-const oldData = document.querySelector('.old-data'); // get old-data.
+const oldData = document.querySelector('.old-data'); /*get old-data.*/
 
-demo9.replaceChild(newElem, oldData);  // add newElement & remove newElement.
+demo9.replaceChild(newElem, oldData);  /*add newElement & remove newElement.*/
+
+
+// use document object method write('text'):----
+document.write('Use document.write().');
 
 
 
