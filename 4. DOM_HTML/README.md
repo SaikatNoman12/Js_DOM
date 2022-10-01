@@ -14,7 +14,7 @@
 
     element.style.cssProperty = 'value';
 
-#### method 
+### method 
 
     element.setAttribute('attr', 'value');
 
