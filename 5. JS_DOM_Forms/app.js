@@ -12,9 +12,13 @@ function validateForm() {
         console.log('Please enter your name!');
         return false;
     }
+    else {
+        console.log(value);
+        myForm['fName'].value = '';
+    }
 
-    console.log(value);
-    return false;
+    return true;
+
 
 }
 
