@@ -4,7 +4,7 @@
 
 ## Changing HTML Content:
 
-### property
+### property:-
 
     element.innerHTML = 'value/tagName';
 
@@ -14,13 +14,13 @@
 
     element.style.cssProperty = 'value';
 
-### method 
+### method:-
 
     element.setAttribute('attr', 'value');
 
 ## Adding or Deleting HTML Content:
 
-### method
+### method:-
 
     document.createElement('tagName');
 
