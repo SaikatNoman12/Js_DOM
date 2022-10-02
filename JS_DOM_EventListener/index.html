@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM EventListener</title>
+
+
+    <style>
+        p {
+            font-family: monospace;
+            font-size: 28px;
+            font-weight: 500;
+            color: #000;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- use addEventListener('event', function, useCapture) method -->
+    <p id="demo1">Click me! (1)</p>
+
+
+    <!-- use different type addEventListener('event', function, useCapture) method -->
+    <p id="demo2">Click me! (2)</p>
+
+
+    <!-- use many event handler in one element. use addEventListener('event', function, useCapture) method -->
+    <p id="demo3">Click me! (3)</p>
+
+
+    <!-- use window event handler. use addEventListener('event', function, useCapture) method -->
+    <p id="demo4">Use window event handler! (4)</p>
+
+
+    <!-- use parameter in addEventListener() method inner function -->
+    <p id="demo5">Click me! (5)</p>
+
+
+    <!-- use Event Bubbling or Event Capturing -->
+
+    <!-- use event bubbling -->
+    <p>Event Bubbling! (6 & 7)</p>
+    <div id="demo6">
+        <button id="demo7">click event bubbling (6 & 7)</button>
+    </div>
+
+
+    <!-- event capturing. use addEventListener('event', function, useCapture) method third parameter useCapture -->
+    <p>Event Capturing! (8 & 9)</p>
+    <div id="demo8">
+        <button id="demo9">click event capturing (8 & 9)</button>
+    </div>
+
+
+    <!-- use removeEventListener() -->
+    <p id="demo10">Click me use removeEventListener!! (10)</p>
+
+
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
