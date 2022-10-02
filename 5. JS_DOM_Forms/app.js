@@ -2,6 +2,7 @@
 // get specific form
 const myForm = document.forms['myForm'];
 
+
 // form validate function.
 function validateForm() {
 
@@ -17,7 +18,7 @@ function validateForm() {
         myForm['fName'].value = '';
     }
 
-    return true;
+    return false;
 
 
 }
@@ -44,3 +45,6 @@ function numberValidate() {
 
     main.value = '';
 }
+
+
+const p = document.getElementsByTagName('p');
