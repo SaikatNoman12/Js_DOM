@@ -14,3 +14,5 @@ And: DOM is a Document Object Model & Programming Interface for HTML that define
 ## 4. DOM html
 
 ## 5. DOM Forms
+
+## 6. DOM CSS
