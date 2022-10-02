@@ -71,7 +71,6 @@ demo7.onmouseup = function () {
 // Dynamic button work step by step:- 
 let count = 0;
 function dynamicFunc(id) {
-
     count++;
 
     if (count === 1) {
@@ -80,7 +79,6 @@ function dynamicFunc(id) {
     else if (count === 2) {
         id.innerHTML = 'thank you';
     }
-
     else if (count === 3) {
         id.innerHTML = "good bye"
     }
