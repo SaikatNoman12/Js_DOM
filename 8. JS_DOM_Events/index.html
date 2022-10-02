@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM Events</title>
+
+    <style>
+        p {
+            font-family: monospace;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        label, input{
+            font-family: monospace;
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+<body id="body">
+
+
+    <!-- use document onclick event -->
+    <p id="demo1" onclick="myClickFunc()">Click me 1</p>
+
+    <!-- use this keyword -->
+    <p onclick="this.innerHTML = 'Why are you Clicked me? (2) '">Click me 2</p>
+
+
+    <!-- use this keyword. and this keyword send by function as a parameter. It's allowed all event -->
+    <p onclick="myClickFunc2(this)">Click me 3</p>
+
+
+    <!-- use onclick in js file. It's allowed all event -->
+    <p id="demo2">Click me 4</p>
+
+
+    <!-- use document onchange event -->
+    <label for="#input">Name:</label>
+    <input id="input" type="text" placeholder="Enter your name" onchange="myChangeFunction(this)">
+    <p>Text:
+        <span id="demo3"></span>
+    </p>
+
+
+    <!-- use document onmouseover event -->
+    <p id="demo4">Mouseover me (5)</p>
+
+
+    <!-- use document onmouseout event -->
+    <p onmouseout="this.innerHTML = 'Why are you mouse out?'">Mouseout me (6)</p>
+
+
+    <!-- use document onload event -->
+    <p id="demo5">loading...</p>
+
+
+    <!-- use document onunload event -->
+    <p href="ttt.com" target="_blank" id="demo6">Your web page is work. Use onunload event.</p>
+
+    <!-- use document onmousedown & onmouseout event -->
+    <p id="demo7">Click me (7)</p>
+
+
+    <!-- custom js link -->
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

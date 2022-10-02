@@ -8,7 +8,9 @@ function move() {
 
     let position = 0;
 
+    // use animation duration.
     const clearReference = setInterval(frame, 5);
+
 
     function frame() {
         if (position < 600) {
