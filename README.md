@@ -7,16 +7,16 @@ And: DOM is a Document Object Model & Programming Interface for HTML that define
 
 ## JavScript DOM Topics: 
 
-### 1. DOM methods
+#### 1. DOM methods
 
-### 2. DOM Document
+#### 2. DOM Document
 
-### 3. DOM ELements
+#### 3. DOM ELements
 
-### 4. DOM html
+#### 4. DOM html
 
-### 5. DOM Forms
+#### 5. DOM Forms
 
-### 6. DOM CSS
+#### 6. DOM CSS
 
-### 7. DOM Animation
+#### 7. DOM Animation
