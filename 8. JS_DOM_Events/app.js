@@ -56,11 +56,36 @@ body2.onunload = function () {
 // use document onmousedown and onmouseup event:----
 const demo7 = document.querySelector('#demo7');
 
+/*onmousedown*/
 demo7.onmousedown = function () {
     demo7.innerHTML = 'Why are you click me?';
 }
 
 
+/*onmouseup*/
 demo7.onmouseup = function () {
     demo7.innerHTML = 'Thank you!';
-} 
+}
+
+
+// Dynamic button work step by step:- 
+let count = 0;
+function dynamicFunc(id) {
+
+    count++;
+
+    if (count === 1) {
+        id.innerHTML = 'click <br> click again';
+    }
+    else if (count === 2) {
+        id.innerHTML = 'thank you';
+    }
+
+    else if (count === 3) {
+        id.innerHTML = "good bye"
+    }
+    else {
+        id.style.display = 'none';
+        count = 0;
+    }
+}

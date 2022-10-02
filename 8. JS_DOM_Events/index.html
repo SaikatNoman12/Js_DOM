@@ -14,9 +14,24 @@
             font-weight: 600;
         }
 
-        label, input{
+        label,
+        input {
             font-family: monospace;
             font-size: 20px;
+        }
+
+        .dynamic {
+            font-size: 32px;
+            width: 250px;
+            text-align: center;
+            background-color: red;
+            height: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: monospace;
+            color: #ffff;
+            flex-direction: column;
         }
     </style>
 
@@ -24,6 +39,9 @@
 
 <body id="body">
 
+    <div class="dynamic" onclick="dynamicFunc(this)">
+        click
+    </div>
 
     <!-- use document onclick event -->
     <p id="demo1" onclick="myClickFunc()">Click me 1</p>
@@ -65,6 +83,8 @@
 
     <!-- use document onmousedown & onmouseout event -->
     <p id="demo7">Click me (7)</p>
+
+
 
 
     <!-- custom js link -->
