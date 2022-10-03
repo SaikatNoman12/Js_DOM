@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Node Navigation</title>
+
+    <style>
+        p {
+            font-family: monospace;
+            font-size: 30px;
+            font-weight: 600;
+            color: #000;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- use parent node -->
+    <div id="grand-parent">
+        <div id="parent">
+            <p class="demo1">Child Node Check Parent Node</p>
+        </div>
+    </div>
+
+
+    <!-- use childNodes property and check child node -->
+    <div id="demo2">
+        <div class="child-1">
+            <p class="child-1.1">Hello child to child</p>
+        </div>
+        <div class="child-2"></div>
+        <p class="child-3">Hello Child</p>
+    </div>
+
+
+    <!-- use firstChild node property -->
+    <div id="demo3">
+        <div class="child-1">
+            <p class="child-1.1">Hello Child to child</p>
+        </div>
+        <div class="child-2"></div>
+        <p class="child-3">
+            Hello Child
+        </p>
+    </div>
+
+
+    <!-- use lastChild node property -->
+    <div id="demo4">
+        <div class="child-1">
+            <p class="child-1.1">Hello Child to Child</p>
+        </div>
+        <div class="child-2"></div>
+        <p class="child-3">
+            Hello Child
+        </p>
+    </div>
+
+
+    <!-- use nextSibling node property -->
+    <div id="demo5">
+        <div class="child-1">
+            <p class="child-1.1">Hello child to child</p>
+        </div>
+        <div class="child-2"></div>
+        <p class="child-3">
+            Hello Child
+        </p>
+    </div>
+
+
+    <!-- use previousSibling node property -->
+    <div id="demo6">
+        <div class="child-1">
+            <p class="child-1.1">Hello child to child</p>
+        </div>
+        <div class="child-2"></div>
+        <p class="child-3">HelloChild</p>
+    </div>
+
+
+
+
+    <!-- custom css link -->
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
