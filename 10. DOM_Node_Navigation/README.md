@@ -4,7 +4,7 @@
 
 Ans: Everything in an HTML document is a node. All HTML element is a node.
 
-### Navigating Between Nodes:
+## Navigating Between Nodes:
 
     parentNode
 
@@ -21,18 +21,18 @@ Ans: Everything in an HTML document is a node. All HTML element is a node.
     previousSibling
 
 
-### Common Error:
+## Common Error:
 
 A common error in DOM processing is to expect an element node to contain text.
 
 
-### DOM Root Nodes:
+## DOM Root Nodes:
 
     document.documentElement    // The full document
 
     document.body   // The body of the document
 
-### The nodeName Property:
+## The nodeName Property:
 
 The nodeName property specifies the name of a node.
 
@@ -46,7 +46,7 @@ The nodeName property specifies the name of a node.
 
 5. nodeName of the document node is always #document
 
-### The nodeValue Property
+## The nodeValue Property
 
 The nodeValue property specifies the value of a node.
 
