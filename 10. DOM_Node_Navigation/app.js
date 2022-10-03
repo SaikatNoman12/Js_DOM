@@ -70,18 +70,22 @@ console.log("------------------ X ------------------");
 
 
 // use nodeValue property. Get node data:--------
-const demo7 = document.getElementById('demo6');
+const demo7 = document.getElementById('demo7');
 
 const nodeValueNode = demo7.childNodes[1].childNodes[0].nodeValue;
 console.log(nodeValueNode);
+console.log("------------------ X ------------------");
 
 
 // use nodeName property. Get node name:--------
 const demo8 = document.getElementById('demo8');
 
-const nodeNameNode = demo8.childNodes[1].nodeName; 
+const nodeNameNode = demo8.childNodes[1].nodeName;
 console.log(nodeNameNode);  // return element name 'p';
+console.log("------------------ X ------------------");
 
 
-
+const nodeNameNode2 = demo8.childNodes[1].nodeElement;
+console.log(nodeNameNode2);
+console.log("------------------ X ------------------");
 
