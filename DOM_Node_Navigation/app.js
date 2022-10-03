@@ -19,7 +19,7 @@ const parentNodeDemo2 = document.getElementById('demo2');
 const childNodeDemo2 = parentNodeDemo2.childNodes;
 console.log(childNodeDemo2);
 
-// access childNode to childNode;
+// access childNode to childNode. use node index number. looks like array;
 const childNodeDemo3 = parentNodeDemo2.childNodes[1].childNodes[1];
 console.log(childNodeDemo3);
 console.log("------------------ X ------------------");  // return childNode parent parent;
@@ -51,5 +51,37 @@ console.log("------------------ X ------------------");
 
 // use previousSibling node property:--------
 const demo6 = document.getElementById('demo6');
+
+const previousSiblingNode = demo6.lastChild.previousSibling;
+console.log(previousSiblingNode);
+console.log("------------------ X ------------------");
+
+
+// use document documentElement property:--------
+const htmlAll = document.documentElement;
+console.log(htmlAll);
+console.log("------------------ X ------------------");
+
+
+// use document body property:--------
+const body = document.body;
+console.log(body); // return body element;
+console.log("------------------ X ------------------");
+
+
+// use nodeValue property. Get node data:--------
+const demo7 = document.getElementById('demo6');
+
+const nodeValueNode = demo7.childNodes[1].childNodes[0].nodeValue;
+console.log(nodeValueNode);
+
+
+// use nodeName property. Get node name:--------
+const demo8 = document.getElementById('demo8');
+
+const nodeNameNode = demo8.childNodes[1].nodeName; 
+console.log(nodeNameNode);  // return element name 'p';
+
+
 
 
