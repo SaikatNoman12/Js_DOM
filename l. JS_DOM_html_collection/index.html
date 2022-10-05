@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_DOM_HTML_collection</title>
+
+    <style>
+        p {
+            color: #000;
+            font-size: 30px;
+            font-weight: 500;
+            font-family: monospace;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- use document getElementsByClassName() method. And get js HTMLCollection  -->
+    <p class="demo1" >Hello 1</p>
+    <p class="demo1" name="hello2">Hello 2</p>
+    <p class="demo1" id="hello3">Hello 3</p>
+
+
+    <!-- use document getElementsByTagName(). And get js HTMLCollection -->
+    <div id="demo2">
+        <p class="demo3">Hello 4</p>
+        <p class="demo3" name="hello5">Hello 5</p>
+        <p class="demo3" id="hello6">Hello 6</p>
+    </div>
+
+
+
+    <!-- custom js link -->
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

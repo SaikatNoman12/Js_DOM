@@ -24,3 +24,9 @@ And: DOM is a Document Object Model & Programming Interface for HTML that define
 #### 8. DOM Event Listener
 
 #### 9. DOM Node Navigation
+
+#### 10. DOM nodes
+
+#### 11. DOM HTMLCollection
+
+#### 12. DOM NodeList
