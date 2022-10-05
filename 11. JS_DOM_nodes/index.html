@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM Nodes</title>
+
+
+    <style>
+        p{
+            font-family: monospace;
+            font-size: 30px;
+            font-weight: 500;
+            color: #000;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <!-- use document createTextNode() method -->
+    <div id="demo1">
+        <p class="p1">Hello Jhone Deo</p>
+        <p class="p2">Hello Kabir Sing</p>
+    </div>
+
+
+    <!-- use document insertBefore(newElem, beforeElem) method -->
+    <div id="demo2">
+        <p class="p3">Hello Jomidar</p>
+        <p class="p4">Hello Khan Sing</p>
+    </div>
+
+
+    <!-- use document remove() method. This method do not support all old browser -->
+    <div id="demo3">
+        <p class="p5">Hello Sania Mirja</p>
+        <p class="p6">Hello Shakib Khan</p>
+    </div>
+
+
+    <!-- use document removeChild(elem) method. This method support all old browser -->
+    <div id="demo4">
+        <p class="p7">Hello Rayhan Khan</p>
+        <p class="p8">Hello Komola Khatun</p>
+    </div>
+
+
+    <!-- use document replaceChild(newElem, replaceElem) method -->
+    <div id="demo5">
+        <p class="p9">Hello Rani</p>
+        <p class="p10">Hello Kania Khan</p>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- custom js link -->
+    <script src="./app.js"></script>
+
+</body>
+</html>
